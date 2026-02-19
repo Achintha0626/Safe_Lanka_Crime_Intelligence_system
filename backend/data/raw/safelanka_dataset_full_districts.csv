@@ -1,0 +1,1177 @@
+year,district,crime_type,crime_count
+2022,Whole Island,Abduction,582
+2022,Whole Island,Agriculture Theft > 50k,52
+2022,Whole Island,Arson,509
+2022,Whole Island,Attempt to Murder,113
+2022,Whole Island,Cattle Theft > 50k,726
+2022,Whole Island,Cheating / Breach of Trust > 300k,2339
+2022,Whole Island,Counterfeiting Currency,36
+2022,Whole Island,Cruelty to Children,83
+2022,Whole Island,Extortions,86
+2022,Whole Island,Grave Sexual Abuse,571
+2022,Whole Island,Grievous Hurt,923
+2022,Whole Island,House Breaking,8645
+2022,Whole Island,Human Trafficking,10
+2022,Whole Island,Illegal Firearms,27
+2022,Whole Island,Kidnapping,174
+2022,Whole Island,Mischief > 50k,532
+2022,Whole Island,Murder,559
+2022,Whole Island,Narcotic Drugs,8268
+2022,Whole Island,Obstructing Police,170
+2022,Whole Island,Offences Against The State,0
+2022,Whole Island,Offensive Weapons Act,169
+2022,Whole Island,Property Theft > 50k,5404
+2022,Whole Island,Rape (Adult),257
+2022,Whole Island,Robbery,3065
+2022,Whole Island,Sexual Exploitation Of Children,25
+2022,Whole Island,Statutory Rape (Consensual),1391
+2022,Whole Island,Statutory Rape (Non-consensual),338
+2022,Whole Island,Unlawful Assembly/ Riot,210
+2022,Whole Island,"Voluntarily Causing Hurt By Dangerous
+Weapons",1888
+2023,Anurdhapura,Abduction,25
+2023,Anurdhapura,Agriculture Theft > 50k,9
+2023,Anurdhapura,Arson,34
+2023,Anurdhapura,Attempt to Murder,9
+2023,Anurdhapura,Cattle Theft > 50k,121
+2023,Anurdhapura,Cheating / Breach of Trust > 300k,176
+2023,Anurdhapura,Counterfeiting Currency,1
+2023,Anurdhapura,Cruelty to Children,1
+2023,Anurdhapura,Extortions,2
+2023,Anurdhapura,Grave Sexual Abuse,45
+2023,Anurdhapura,Grievous Hurt,76
+2023,Anurdhapura,House Breaking,563
+2023,Anurdhapura,Human Trafficking,0
+2023,Anurdhapura,Hurt by Dangerous Weapons,113
+2023,Anurdhapura,Illegal Firearms,2
+2023,Anurdhapura,Kidnapping,8
+2023,Anurdhapura,Mischief > 50k,25
+2023,Anurdhapura,Murder,19
+2023,Anurdhapura,Narcotic Drugs,117
+2023,Anurdhapura,Obstructing Police,15
+2023,Anurdhapura,Offences Against The State,0
+2023,Anurdhapura,Offensive Weapons Act,1
+2023,Anurdhapura,Property Theft > 50k,426
+2023,Anurdhapura,Rape (Adult),16
+2023,Anurdhapura,Robbery,258
+2023,Anurdhapura,Sexual Exploitation Of Children,0
+2023,Anurdhapura,Statutory Rape (Consensual),70
+2023,Anurdhapura,Statutory Rape (Non-consensual),27
+2023,Anurdhapura,Unlawful Assembly/ Riot,2
+2023,Ccd,Abduction,0
+2023,Ccd,Agriculture Theft > 50k,0
+2023,Ccd,Arson,0
+2023,Ccd,Attempt to Murder,0
+2023,Ccd,Cattle Theft > 50k,0
+2023,Ccd,Cheating / Breach of Trust > 300k,31
+2023,Ccd,Counterfeiting Currency,0
+2023,Ccd,Cruelty to Children,0
+2023,Ccd,Extortions,4
+2023,Ccd,Grave Sexual Abuse,0
+2023,Ccd,Grievous Hurt,0
+2023,Ccd,House Breaking,0
+2023,Ccd,Human Trafficking,0
+2023,Ccd,Hurt by Dangerous Weapons,0
+2023,Ccd,Illegal Firearms,1
+2023,Ccd,Kidnapping,0
+2023,Ccd,Mischief > 50k,0
+2023,Ccd,Murder,0
+2023,Ccd,Narcotic Drugs,95
+2023,Ccd,Obstructing Police,0
+2023,Ccd,Offences Against The State,0
+2023,Ccd,Offensive Weapons Act,5
+2023,Ccd,Property Theft > 50k,1
+2023,Ccd,Rape (Adult),0
+2023,Ccd,Robbery,0
+2023,Ccd,Sexual Exploitation Of Children,0
+2023,Ccd,Statutory Rape (Consensual),0
+2023,Ccd,Statutory Rape (Non-consensual),0
+2023,Ccd,Unlawful Assembly/ Riot,0
+2023,Cid,Abduction,0
+2023,Cid,Agriculture Theft > 50k,0
+2023,Cid,Arson,0
+2023,Cid,Attempt to Murder,0
+2023,Cid,Cattle Theft > 50k,0
+2023,Cid,Cheating / Breach of Trust > 300k,360
+2023,Cid,Counterfeiting Currency,0
+2023,Cid,Cruelty to Children,0
+2023,Cid,Extortions,0
+2023,Cid,Grave Sexual Abuse,0
+2023,Cid,Grievous Hurt,0
+2023,Cid,House Breaking,0
+2023,Cid,Human Trafficking,0
+2023,Cid,Hurt by Dangerous Weapons,0
+2023,Cid,Illegal Firearms,0
+2023,Cid,Kidnapping,0
+2023,Cid,Mischief > 50k,0
+2023,Cid,Murder,0
+2023,Cid,Narcotic Drugs,0
+2023,Cid,Obstructing Police,0
+2023,Cid,Offences Against The State,0
+2023,Cid,Offensive Weapons Act,0
+2023,Cid,Property Theft > 50k,0
+2023,Cid,Rape (Adult),0
+2023,Cid,Robbery,0
+2023,Cid,Sexual Exploitation Of Children,0
+2023,Cid,Statutory Rape (Consensual),0
+2023,Cid,Statutory Rape (Non-consensual),0
+2023,Cid,Unlawful Assembly/ Riot,0
+2023,Colombo (N),Abduction,7
+2023,Colombo (N),Agriculture Theft > 50k,0
+2023,Colombo (N),Arson,1
+2023,Colombo (N),Attempt to Murder,4
+2023,Colombo (N),Cattle Theft > 50k,0
+2023,Colombo (N),Cheating / Breach of Trust > 300k,7
+2023,Colombo (N),Counterfeiting Currency,3
+2023,Colombo (N),Cruelty to Children,2
+2023,Colombo (N),Extortions,1
+2023,Colombo (N),Grave Sexual Abuse,2
+2023,Colombo (N),Grievous Hurt,15
+2023,Colombo (N),House Breaking,92
+2023,Colombo (N),Human Trafficking,0
+2023,Colombo (N),Hurt by Dangerous Weapons,39
+2023,Colombo (N),Illegal Firearms,1
+2023,Colombo (N),Kidnapping,6
+2023,Colombo (N),Mischief > 50k,2
+2023,Colombo (N),Murder,13
+2023,Colombo (N),Narcotic Drugs,438
+2023,Colombo (N),Obstructing Police,1
+2023,Colombo (N),Offences Against The State,0
+2023,Colombo (N),Offensive Weapons Act,12
+2023,Colombo (N),Property Theft > 50k,79
+2023,Colombo (N),Rape (Adult),0
+2023,Colombo (N),Robbery,29
+2023,Colombo (N),Sexual Exploitation Of Children,0
+2023,Colombo (N),Statutory Rape (Consensual),10
+2023,Colombo (N),Statutory Rape (Non-consensual),0
+2023,Colombo (N),Unlawful Assembly/ Riot,0
+2023,Colombo (S),Abduction,6
+2023,Colombo (S),Agriculture Theft > 50k,0
+2023,Colombo (S),Arson,1
+2023,Colombo (S),Attempt to Murder,3
+2023,Colombo (S),Cattle Theft > 50k,0
+2023,Colombo (S),Cheating / Breach of Trust > 300k,30
+2023,Colombo (S),Counterfeiting Currency,1
+2023,Colombo (S),Cruelty to Children,0
+2023,Colombo (S),Extortions,3
+2023,Colombo (S),Grave Sexual Abuse,2
+2023,Colombo (S),Grievous Hurt,8
+2023,Colombo (S),House Breaking,202
+2023,Colombo (S),Human Trafficking,0
+2023,Colombo (S),Hurt by Dangerous Weapons,32
+2023,Colombo (S),Illegal Firearms,1
+2023,Colombo (S),Kidnapping,3
+2023,Colombo (S),Mischief > 50k,2
+2023,Colombo (S),Murder,6
+2023,Colombo (S),Narcotic Drugs,301
+2023,Colombo (S),Obstructing Police,4
+2023,Colombo (S),Offences Against The State,0
+2023,Colombo (S),Offensive Weapons Act,6
+2023,Colombo (S),Property Theft > 50k,147
+2023,Colombo (S),Rape (Adult),2
+2023,Colombo (S),Robbery,58
+2023,Colombo (S),Sexual Exploitation Of Children,0
+2023,Colombo (S),Statutory Rape (Consensual),3
+2023,Colombo (S),Statutory Rape (Non-consensual),0
+2023,Colombo (S),Unlawful Assembly/ Riot,3
+2023,Colombo ©,Abduction,0
+2023,Colombo ©,Agriculture Theft > 50k,0
+2023,Colombo ©,Arson,1
+2023,Colombo ©,Attempt to Murder,1
+2023,Colombo ©,Cattle Theft > 50k,0
+2023,Colombo ©,Cheating / Breach of Trust > 300k,18
+2023,Colombo ©,Counterfeiting Currency,3
+2023,Colombo ©,Cruelty to Children,1
+2023,Colombo ©,Extortions,1
+2023,Colombo ©,Grave Sexual Abuse,3
+2023,Colombo ©,Grievous Hurt,7
+2023,Colombo ©,House Breaking,71
+2023,Colombo ©,Human Trafficking,0
+2023,Colombo ©,Hurt by Dangerous Weapons,38
+2023,Colombo ©,Illegal Firearms,0
+2023,Colombo ©,Kidnapping,6
+2023,Colombo ©,Mischief > 50k,3
+2023,Colombo ©,Murder,6
+2023,Colombo ©,Narcotic Drugs,201
+2023,Colombo ©,Obstructing Police,5
+2023,Colombo ©,Offences Against The State,0
+2023,Colombo ©,Offensive Weapons Act,3
+2023,Colombo ©,Property Theft > 50k,119
+2023,Colombo ©,Rape (Adult),3
+2023,Colombo ©,Robbery,31
+2023,Colombo ©,Sexual Exploitation Of Children,1
+2023,Colombo ©,Statutory Rape (Consensual),4
+2023,Colombo ©,Statutory Rape (Non-consensual),0
+2023,Colombo ©,Unlawful Assembly/ Riot,3
+2023,Elpitiya,Abduction,11
+2023,Elpitiya,Agriculture Theft > 50k,6
+2023,Elpitiya,Arson,11
+2023,Elpitiya,Attempt to Murder,9
+2023,Elpitiya,Cattle Theft > 50k,43
+2023,Elpitiya,Cheating / Breach of Trust > 300k,23
+2023,Elpitiya,Counterfeiting Currency,1
+2023,Elpitiya,Cruelty to Children,2
+2023,Elpitiya,Extortions,7
+2023,Elpitiya,Grave Sexual Abuse,15
+2023,Elpitiya,Grievous Hurt,53
+2023,Elpitiya,House Breaking,538
+2023,Elpitiya,Human Trafficking,0
+2023,Elpitiya,Hurt by Dangerous Weapons,81
+2023,Elpitiya,Illegal Firearms,2
+2023,Elpitiya,Kidnapping,4
+2023,Elpitiya,Mischief > 50k,9
+2023,Elpitiya,Murder,21
+2023,Elpitiya,Narcotic Drugs,179
+2023,Elpitiya,Obstructing Police,9
+2023,Elpitiya,Offences Against The State,0
+2023,Elpitiya,Offensive Weapons Act,1
+2023,Elpitiya,Property Theft > 50k,243
+2023,Elpitiya,Rape (Adult),5
+2023,Elpitiya,Robbery,153
+2023,Elpitiya,Sexual Exploitation Of Children,0
+2023,Elpitiya,Statutory Rape (Consensual),40
+2023,Elpitiya,Statutory Rape (Non-consensual),11
+2023,Elpitiya,Unlawful Assembly/ Riot,0
+2023,Fraud Bureau,Abduction,0
+2023,Fraud Bureau,Agriculture Theft > 50k,0
+2023,Fraud Bureau,Arson,0
+2023,Fraud Bureau,Attempt to Murder,0
+2023,Fraud Bureau,Cattle Theft > 50k,0
+2023,Fraud Bureau,Cheating / Breach of Trust > 300k,425
+2023,Fraud Bureau,Counterfeiting Currency,0
+2023,Fraud Bureau,Cruelty to Children,0
+2023,Fraud Bureau,Extortions,0
+2023,Fraud Bureau,Grave Sexual Abuse,0
+2023,Fraud Bureau,Grievous Hurt,0
+2023,Fraud Bureau,House Breaking,0
+2023,Fraud Bureau,Human Trafficking,0
+2023,Fraud Bureau,Hurt by Dangerous Weapons,0
+2023,Fraud Bureau,Illegal Firearms,0
+2023,Fraud Bureau,Kidnapping,0
+2023,Fraud Bureau,Mischief > 50k,0
+2023,Fraud Bureau,Murder,0
+2023,Fraud Bureau,Narcotic Drugs,0
+2023,Fraud Bureau,Obstructing Police,0
+2023,Fraud Bureau,Offences Against The State,0
+2023,Fraud Bureau,Offensive Weapons Act,0
+2023,Fraud Bureau,Property Theft > 50k,0
+2023,Fraud Bureau,Rape (Adult),0
+2023,Fraud Bureau,Robbery,0
+2023,Fraud Bureau,Sexual Exploitation Of Children,0
+2023,Fraud Bureau,Statutory Rape (Consensual),0
+2023,Fraud Bureau,Statutory Rape (Non-consensual),0
+2023,Fraud Bureau,Unlawful Assembly/ Riot,0
+2023,Galle,Abduction,13
+2023,Galle,Agriculture Theft > 50k,1
+2023,Galle,Arson,12
+2023,Galle,Attempt to Murder,1
+2023,Galle,Cattle Theft > 50k,64
+2023,Galle,Cheating / Breach of Trust > 300k,42
+2023,Galle,Counterfeiting Currency,1
+2023,Galle,Cruelty to Children,1
+2023,Galle,Extortions,9
+2023,Galle,Grave Sexual Abuse,29
+2023,Galle,Grievous Hurt,52
+2023,Galle,House Breaking,456
+2023,Galle,Human Trafficking,0
+2023,Galle,Hurt by Dangerous Weapons,106
+2023,Galle,Illegal Firearms,0
+2023,Galle,Kidnapping,6
+2023,Galle,Mischief > 50k,12
+2023,Galle,Murder,14
+2023,Galle,Narcotic Drugs,56
+2023,Galle,Obstructing Police,13
+2023,Galle,Offences Against The State,0
+2023,Galle,Offensive Weapons Act,2
+2023,Galle,Property Theft > 50k,259
+2023,Galle,Rape (Adult),7
+2023,Galle,Robbery,145
+2023,Galle,Sexual Exploitation Of Children,0
+2023,Galle,Statutory Rape (Consensual),41
+2023,Galle,Statutory Rape (Non-consensual),6
+2023,Galle,Unlawful Assembly/ Riot,0
+2023,Gampaha,Abduction,17
+2023,Gampaha,Agriculture Theft > 50k,1
+2023,Gampaha,Arson,11
+2023,Gampaha,Attempt to Murder,3
+2023,Gampaha,Cattle Theft > 50k,29
+2023,Gampaha,Cheating / Breach of Trust > 300k,34
+2023,Gampaha,Counterfeiting Currency,2
+2023,Gampaha,Cruelty to Children,0
+2023,Gampaha,Extortions,5
+2023,Gampaha,Grave Sexual Abuse,16
+2023,Gampaha,Grievous Hurt,18
+2023,Gampaha,House Breaking,469
+2023,Gampaha,Human Trafficking,0
+2023,Gampaha,Hurt by Dangerous Weapons,65
+2023,Gampaha,Illegal Firearms,2
+2023,Gampaha,Kidnapping,8
+2023,Gampaha,Mischief > 50k,7
+2023,Gampaha,Murder,28
+2023,Gampaha,Narcotic Drugs,343
+2023,Gampaha,Obstructing Police,3
+2023,Gampaha,Offences Against The State,0
+2023,Gampaha,Offensive Weapons Act,5
+2023,Gampaha,Property Theft > 50k,226
+2023,Gampaha,Rape (Adult),11
+2023,Gampaha,Robbery,128
+2023,Gampaha,Sexual Exploitation Of Children,1
+2023,Gampaha,Statutory Rape (Consensual),29
+2023,Gampaha,Statutory Rape (Non-consensual),8
+2023,Gampaha,Unlawful Assembly/ Riot,0
+2023,Gampola,Abduction,7
+2023,Gampola,Agriculture Theft > 50k,5
+2023,Gampola,Arson,5
+2023,Gampola,Attempt to Murder,1
+2023,Gampola,Cattle Theft > 50k,6
+2023,Gampola,Cheating / Breach of Trust > 300k,39
+2023,Gampola,Counterfeiting Currency,0
+2023,Gampola,Cruelty to Children,2
+2023,Gampola,Extortions,3
+2023,Gampola,Grave Sexual Abuse,14
+2023,Gampola,Grievous Hurt,14
+2023,Gampola,House Breaking,175
+2023,Gampola,Human Trafficking,0
+2023,Gampola,Hurt by Dangerous Weapons,32
+2023,Gampola,Illegal Firearms,0
+2023,Gampola,Kidnapping,2
+2023,Gampola,Mischief > 50k,6
+2023,Gampola,Murder,6
+2023,Gampola,Narcotic Drugs,3
+2023,Gampola,Obstructing Police,1
+2023,Gampola,Offences Against The State,0
+2023,Gampola,Offensive Weapons Act,0
+2023,Gampola,Property Theft > 50k,88
+2023,Gampola,Rape (Adult),4
+2023,Gampola,Robbery,32
+2023,Gampola,Sexual Exploitation Of Children,0
+2023,Gampola,Statutory Rape (Consensual),10
+2023,Gampola,Statutory Rape (Non-consensual),7
+2023,Gampola,Unlawful Assembly/ Riot,0
+2023,Hatton,Abduction,6
+2023,Hatton,Agriculture Theft > 50k,0
+2023,Hatton,Arson,2
+2023,Hatton,Attempt to Murder,0
+2023,Hatton,Cattle Theft > 50k,0
+2023,Hatton,Cheating / Breach of Trust > 300k,9
+2023,Hatton,Counterfeiting Currency,0
+2023,Hatton,Cruelty to Children,0
+2023,Hatton,Extortions,0
+2023,Hatton,Grave Sexual Abuse,3
+2023,Hatton,Grievous Hurt,16
+2023,Hatton,House Breaking,61
+2023,Hatton,Human Trafficking,0
+2023,Hatton,Hurt by Dangerous Weapons,12
+2023,Hatton,Illegal Firearms,0
+2023,Hatton,Kidnapping,0
+2023,Hatton,Mischief > 50k,2
+2023,Hatton,Murder,2
+2023,Hatton,Narcotic Drugs,0
+2023,Hatton,Obstructing Police,1
+2023,Hatton,Offences Against The State,0
+2023,Hatton,Offensive Weapons Act,0
+2023,Hatton,Property Theft > 50k,45
+2023,Hatton,Rape (Adult),2
+2023,Hatton,Robbery,7
+2023,Hatton,Sexual Exploitation Of Children,0
+2023,Hatton,Statutory Rape (Consensual),13
+2023,Hatton,Statutory Rape (Non-consensual),1
+2023,Hatton,Unlawful Assembly/ Riot,0
+2023,Jaffna,Abduction,6
+2023,Jaffna,Agriculture Theft > 50k,1
+2023,Jaffna,Arson,33
+2023,Jaffna,Attempt to Murder,1
+2023,Jaffna,Cattle Theft > 50k,29
+2023,Jaffna,Cheating / Breach of Trust > 300k,25
+2023,Jaffna,Counterfeiting Currency,1
+2023,Jaffna,Cruelty to Children,2
+2023,Jaffna,Extortions,1
+2023,Jaffna,Grave Sexual Abuse,6
+2023,Jaffna,Grievous Hurt,29
+2023,Jaffna,House Breaking,172
+2023,Jaffna,Human Trafficking,0
+2023,Jaffna,Hurt by Dangerous Weapons,60
+2023,Jaffna,Illegal Firearms,0
+2023,Jaffna,Kidnapping,7
+2023,Jaffna,Mischief > 50k,11
+2023,Jaffna,Murder,14
+2023,Jaffna,Narcotic Drugs,38
+2023,Jaffna,Obstructing Police,2
+2023,Jaffna,Offences Against The State,1
+2023,Jaffna,Offensive Weapons Act,1
+2023,Jaffna,Property Theft > 50k,148
+2023,Jaffna,Rape (Adult),5
+2023,Jaffna,Robbery,89
+2023,Jaffna,Sexual Exploitation Of Children,1
+2023,Jaffna,Statutory Rape (Consensual),30
+2023,Jaffna,Statutory Rape (Non-consensual),1
+2023,Jaffna,Unlawful Assembly/ Riot,0
+2023,Kaluthara,Abduction,25
+2023,Kaluthara,Agriculture Theft > 50k,2
+2023,Kaluthara,Arson,9
+2023,Kaluthara,Attempt to Murder,2
+2023,Kaluthara,Cattle Theft > 50k,32
+2023,Kaluthara,Cheating / Breach of Trust > 300k,57
+2023,Kaluthara,Counterfeiting Currency,3
+2023,Kaluthara,Cruelty to Children,3
+2023,Kaluthara,Extortions,1
+2023,Kaluthara,Grave Sexual Abuse,26
+2023,Kaluthara,Grievous Hurt,8
+2023,Kaluthara,House Breaking,294
+2023,Kaluthara,Human Trafficking,1
+2023,Kaluthara,Hurt by Dangerous Weapons,42
+2023,Kaluthara,Illegal Firearms,1
+2023,Kaluthara,Kidnapping,3
+2023,Kaluthara,Mischief > 50k,8
+2023,Kaluthara,Murder,23
+2023,Kaluthara,Narcotic Drugs,239
+2023,Kaluthara,Obstructing Police,3
+2023,Kaluthara,Offences Against The State,0
+2023,Kaluthara,Offensive Weapons Act,4
+2023,Kaluthara,Property Theft > 50k,148
+2023,Kaluthara,Rape (Adult),4
+2023,Kaluthara,Robbery,87
+2023,Kaluthara,Sexual Exploitation Of Children,0
+2023,Kaluthara,Statutory Rape (Consensual),40
+2023,Kaluthara,Statutory Rape (Non-consensual),9
+2023,Kaluthara,Unlawful Assembly/ Riot,0
+2023,Kandy,Abduction,17
+2023,Kandy,Agriculture Theft > 50k,1
+2023,Kandy,Arson,6
+2023,Kandy,Attempt to Murder,1
+2023,Kandy,Cattle Theft > 50k,7
+2023,Kandy,Cheating / Breach of Trust > 300k,80
+2023,Kandy,Counterfeiting Currency,4
+2023,Kandy,Cruelty to Children,4
+2023,Kandy,Extortions,11
+2023,Kandy,Grave Sexual Abuse,25
+2023,Kandy,Grievous Hurt,42
+2023,Kandy,House Breaking,462
+2023,Kandy,Human Trafficking,1
+2023,Kandy,Hurt by Dangerous Weapons,62
+2023,Kandy,Illegal Firearms,0
+2023,Kandy,Kidnapping,9
+2023,Kandy,Mischief > 50k,8
+2023,Kandy,Murder,16
+2023,Kandy,Narcotic Drugs,49
+2023,Kandy,Obstructing Police,8
+2023,Kandy,Offences Against The State,0
+2023,Kandy,Offensive Weapons Act,0
+2023,Kandy,Property Theft > 50k,255
+2023,Kandy,Rape (Adult),13
+2023,Kandy,Robbery,78
+2023,Kandy,Sexual Exploitation Of Children,1
+2023,Kandy,Statutory Rape (Consensual),36
+2023,Kandy,Statutory Rape (Non-consensual),3
+2023,Kandy,Unlawful Assembly/ Riot,0
+2023,Kantale,Abduction,7
+2023,Kantale,Agriculture Theft > 50k,0
+2023,Kantale,Arson,7
+2023,Kantale,Attempt to Murder,3
+2023,Kantale,Cattle Theft > 50k,25
+2023,Kantale,Cheating / Breach of Trust > 300k,29
+2023,Kantale,Counterfeiting Currency,0
+2023,Kantale,Cruelty to Children,1
+2023,Kantale,Extortions,0
+2023,Kantale,Grave Sexual Abuse,5
+2023,Kantale,Grievous Hurt,36
+2023,Kantale,House Breaking,69
+2023,Kantale,Human Trafficking,1
+2023,Kantale,Hurt by Dangerous Weapons,24
+2023,Kantale,Illegal Firearms,0
+2023,Kantale,Kidnapping,0
+2023,Kantale,Mischief > 50k,3
+2023,Kantale,Murder,0
+2023,Kantale,Narcotic Drugs,17
+2023,Kantale,Obstructing Police,2
+2023,Kantale,Offences Against The State,0
+2023,Kantale,Offensive Weapons Act,2
+2023,Kantale,Property Theft > 50k,35
+2023,Kantale,Rape (Adult),2
+2023,Kantale,Robbery,12
+2023,Kantale,Sexual Exploitation Of Children,0
+2023,Kantale,Statutory Rape (Consensual),16
+2023,Kantale,Statutory Rape (Non-consensual),5
+2023,Kantale,Unlawful Assembly/ Riot,0
+2023,Kebithigollewa,Abduction,12
+2023,Kebithigollewa,Agriculture Theft > 50k,0
+2023,Kebithigollewa,Arson,14
+2023,Kebithigollewa,Attempt to Murder,4
+2023,Kebithigollewa,Cattle Theft > 50k,81
+2023,Kebithigollewa,Cheating / Breach of Trust > 300k,67
+2023,Kebithigollewa,Counterfeiting Currency,1
+2023,Kebithigollewa,Cruelty to Children,0
+2023,Kebithigollewa,Extortions,3
+2023,Kebithigollewa,Grave Sexual Abuse,11
+2023,Kebithigollewa,Grievous Hurt,29
+2023,Kebithigollewa,House Breaking,177
+2023,Kebithigollewa,Human Trafficking,0
+2023,Kebithigollewa,Hurt by Dangerous Weapons,27
+2023,Kebithigollewa,Illegal Firearms,1
+2023,Kebithigollewa,Kidnapping,3
+2023,Kebithigollewa,Mischief > 50k,13
+2023,Kebithigollewa,Murder,7
+2023,Kebithigollewa,Narcotic Drugs,8
+2023,Kebithigollewa,Obstructing Police,11
+2023,Kebithigollewa,Offences Against The State,0
+2023,Kebithigollewa,Offensive Weapons Act,0
+2023,Kebithigollewa,Property Theft > 50k,107
+2023,Kebithigollewa,Rape (Adult),4
+2023,Kebithigollewa,Robbery,35
+2023,Kebithigollewa,Sexual Exploitation Of Children,0
+2023,Kebithigollewa,Statutory Rape (Consensual),27
+2023,Kebithigollewa,Statutory Rape (Non-consensual),5
+2023,Kebithigollewa,Unlawful Assembly/ Riot,0
+2023,Kelaniya,Abduction,18
+2023,Kelaniya,Agriculture Theft > 50k,0
+2023,Kelaniya,Arson,8
+2023,Kelaniya,Attempt to Murder,9
+2023,Kelaniya,Cattle Theft > 50k,0
+2023,Kelaniya,Cheating / Breach of Trust > 300k,21
+2023,Kelaniya,Counterfeiting Currency,5
+2023,Kelaniya,Cruelty to Children,7
+2023,Kelaniya,Extortions,5
+2023,Kelaniya,Grave Sexual Abuse,17
+2023,Kelaniya,Grievous Hurt,23
+2023,Kelaniya,House Breaking,487
+2023,Kelaniya,Human Trafficking,1
+2023,Kelaniya,Hurt by Dangerous Weapons,57
+2023,Kelaniya,Illegal Firearms,4
+2023,Kelaniya,Kidnapping,10
+2023,Kelaniya,Mischief > 50k,4
+2023,Kelaniya,Murder,21
+2023,Kelaniya,Narcotic Drugs,468
+2023,Kelaniya,Obstructing Police,3
+2023,Kelaniya,Offences Against The State,0
+2023,Kelaniya,Offensive Weapons Act,11
+2023,Kelaniya,Property Theft > 50k,315
+2023,Kelaniya,Rape (Adult),8
+2023,Kelaniya,Robbery,169
+2023,Kelaniya,Sexual Exploitation Of Children,2
+2023,Kelaniya,Statutory Rape (Consensual),27
+2023,Kelaniya,Statutory Rape (Non-consensual),2
+2023,Kelaniya,Unlawful Assembly/ Riot,0
+2023,Kilinochchi,Abduction,6
+2023,Kilinochchi,Agriculture Theft > 50k,0
+2023,Kilinochchi,Arson,16
+2023,Kilinochchi,Attempt to Murder,4
+2023,Kilinochchi,Cattle Theft > 50k,36
+2023,Kilinochchi,Cheating / Breach of Trust > 300k,50
+2023,Kilinochchi,Counterfeiting Currency,4
+2023,Kilinochchi,Cruelty to Children,1
+2023,Kilinochchi,Extortions,0
+2023,Kilinochchi,Grave Sexual Abuse,1
+2023,Kilinochchi,Grievous Hurt,24
+2023,Kilinochchi,House Breaking,138
+2023,Kilinochchi,Human Trafficking,0
+2023,Kilinochchi,Hurt by Dangerous Weapons,57
+2023,Kilinochchi,Illegal Firearms,1
+2023,Kilinochchi,Kidnapping,4
+2023,Kilinochchi,Mischief > 50k,12
+2023,Kilinochchi,Murder,12
+2023,Kilinochchi,Narcotic Drugs,22
+2023,Kilinochchi,Obstructing Police,5
+2023,Kilinochchi,Offences Against The State,0
+2023,Kilinochchi,Offensive Weapons Act,1
+2023,Kilinochchi,Property Theft > 50k,87
+2023,Kilinochchi,Rape (Adult),1
+2023,Kilinochchi,Robbery,56
+2023,Kilinochchi,Sexual Exploitation Of Children,0
+2023,Kilinochchi,Statutory Rape (Consensual),10
+2023,Kilinochchi,Statutory Rape (Non-consensual),7
+2023,Kilinochchi,Unlawful Assembly/ Riot,0
+2023,Kks,Abduction,5
+2023,Kks,Agriculture Theft > 50k,0
+2023,Kks,Arson,9
+2023,Kks,Attempt to Murder,2
+2023,Kks,Cattle Theft > 50k,12
+2023,Kks,Cheating / Breach of Trust > 300k,11
+2023,Kks,Counterfeiting Currency,1
+2023,Kks,Cruelty to Children,0
+2023,Kks,Extortions,0
+2023,Kks,Grave Sexual Abuse,0
+2023,Kks,Grievous Hurt,18
+2023,Kks,House Breaking,115
+2023,Kks,Human Trafficking,0
+2023,Kks,Hurt by Dangerous Weapons,21
+2023,Kks,Illegal Firearms,0
+2023,Kks,Kidnapping,0
+2023,Kks,Mischief > 50k,4
+2023,Kks,Murder,5
+2023,Kks,Narcotic Drugs,13
+2023,Kks,Obstructing Police,4
+2023,Kks,Offences Against The State,0
+2023,Kks,Offensive Weapons Act,0
+2023,Kks,Property Theft > 50k,46
+2023,Kks,Rape (Adult),2
+2023,Kks,Robbery,39
+2023,Kks,Sexual Exploitation Of Children,4
+2023,Kks,Statutory Rape (Consensual),19
+2023,Kks,Statutory Rape (Non-consensual),2
+2023,Kks,Unlawful Assembly/ Riot,0
+2023,Mannar,Abduction,6
+2023,Mannar,Agriculture Theft > 50k,2
+2023,Mannar,Arson,3
+2023,Mannar,Attempt to Murder,1
+2023,Mannar,Cattle Theft > 50k,9
+2023,Mannar,Cheating / Breach of Trust > 300k,36
+2023,Mannar,Counterfeiting Currency,2
+2023,Mannar,Cruelty to Children,0
+2023,Mannar,Extortions,0
+2023,Mannar,Grave Sexual Abuse,2
+2023,Mannar,Grievous Hurt,12
+2023,Mannar,House Breaking,54
+2023,Mannar,Human Trafficking,0
+2023,Mannar,Hurt by Dangerous Weapons,11
+2023,Mannar,Illegal Firearms,0
+2023,Mannar,Kidnapping,1
+2023,Mannar,Mischief > 50k,10
+2023,Mannar,Murder,4
+2023,Mannar,Narcotic Drugs,51
+2023,Mannar,Obstructing Police,3
+2023,Mannar,Offences Against The State,0
+2023,Mannar,Offensive Weapons Act,0
+2023,Mannar,Property Theft > 50k,36
+2023,Mannar,Rape (Adult),4
+2023,Mannar,Robbery,6
+2023,Mannar,Sexual Exploitation Of Children,0
+2023,Mannar,Statutory Rape (Consensual),8
+2023,Mannar,Statutory Rape (Non-consensual),1
+2023,Mannar,Unlawful Assembly/ Riot,0
+2023,Matale,Abduction,11
+2023,Matale,Agriculture Theft > 50k,2
+2023,Matale,Arson,9
+2023,Matale,Attempt to Murder,7
+2023,Matale,Cattle Theft > 50k,18
+2023,Matale,Cheating / Breach of Trust > 300k,56
+2023,Matale,Counterfeiting Currency,0
+2023,Matale,Cruelty to Children,2
+2023,Matale,Extortions,2
+2023,Matale,Grave Sexual Abuse,21
+2023,Matale,Grievous Hurt,59
+2023,Matale,House Breaking,196
+2023,Matale,Human Trafficking,0
+2023,Matale,Hurt by Dangerous Weapons,40
+2023,Matale,Illegal Firearms,2
+2023,Matale,Kidnapping,2
+2023,Matale,Mischief > 50k,6
+2023,Matale,Murder,6
+2023,Matale,Narcotic Drugs,24
+2023,Matale,Obstructing Police,5
+2023,Matale,Offences Against The State,0
+2023,Matale,Offensive Weapons Act,1
+2023,Matale,Property Theft > 50k,92
+2023,Matale,Rape (Adult),6
+2023,Matale,Robbery,34
+2023,Matale,Sexual Exploitation Of Children,0
+2023,Matale,Statutory Rape (Consensual),27
+2023,Matale,Statutory Rape (Non-consensual),11
+2023,Matale,Unlawful Assembly/ Riot,0
+2023,Matara,Abduction,24
+2023,Matara,Agriculture Theft > 50k,1
+2023,Matara,Arson,11
+2023,Matara,Attempt to Murder,13
+2023,Matara,Cattle Theft > 50k,85
+2023,Matara,Cheating / Breach of Trust > 300k,55
+2023,Matara,Counterfeiting Currency,10
+2023,Matara,Cruelty to Children,5
+2023,Matara,Extortions,8
+2023,Matara,Grave Sexual Abuse,35
+2023,Matara,Grievous Hurt,80
+2023,Matara,House Breaking,348
+2023,Matara,Human Trafficking,0
+2023,Matara,Hurt by Dangerous Weapons,117
+2023,Matara,Illegal Firearms,2
+2023,Matara,Kidnapping,14
+2023,Matara,Mischief > 50k,13
+2023,Matara,Murder,21
+2023,Matara,Narcotic Drugs,49
+2023,Matara,Obstructing Police,12
+2023,Matara,Offences Against The State,0
+2023,Matara,Offensive Weapons Act,1
+2023,Matara,Property Theft > 50k,212
+2023,Matara,Rape (Adult),15
+2023,Matara,Robbery,86
+2023,Matara,Sexual Exploitation Of Children,2
+2023,Matara,Statutory Rape (Consensual),74
+2023,Matara,Statutory Rape (Non-consensual),6
+2023,Matara,Unlawful Assembly/ Riot,0
+2023,Mt.Lavinia,Abduction,11
+2023,Mt.Lavinia,Agriculture Theft > 50k,1
+2023,Mt.Lavinia,Arson,3
+2023,Mt.Lavinia,Attempt to Murder,1
+2023,Mt.Lavinia,Cattle Theft > 50k,8
+2023,Mt.Lavinia,Cheating / Breach of Trust > 300k,29
+2023,Mt.Lavinia,Counterfeiting Currency,1
+2023,Mt.Lavinia,Cruelty to Children,0
+2023,Mt.Lavinia,Extortions,5
+2023,Mt.Lavinia,Grave Sexual Abuse,21
+2023,Mt.Lavinia,Grievous Hurt,38
+2023,Mt.Lavinia,House Breaking,348
+2023,Mt.Lavinia,Human Trafficking,1
+2023,Mt.Lavinia,Hurt by Dangerous Weapons,62
+2023,Mt.Lavinia,Illegal Firearms,2
+2023,Mt.Lavinia,Kidnapping,4
+2023,Mt.Lavinia,Mischief > 50k,3
+2023,Mt.Lavinia,Murder,16
+2023,Mt.Lavinia,Narcotic Drugs,876
+2023,Mt.Lavinia,Obstructing Police,4
+2023,Mt.Lavinia,Offences Against The State,0
+2023,Mt.Lavinia,Offensive Weapons Act,5
+2023,Mt.Lavinia,Property Theft > 50k,194
+2023,Mt.Lavinia,Rape (Adult),5
+2023,Mt.Lavinia,Robbery,123
+2023,Mt.Lavinia,Sexual Exploitation Of Children,0
+2023,Mt.Lavinia,Statutory Rape (Consensual),13
+2023,Mt.Lavinia,Statutory Rape (Non-consensual),1
+2023,Mt.Lavinia,Unlawful Assembly/ Riot,0
+2023,Mullativu,Abduction,7
+2023,Mullativu,Agriculture Theft > 50k,0
+2023,Mullativu,Arson,11
+2023,Mullativu,Attempt to Murder,2
+2023,Mullativu,Cattle Theft > 50k,22
+2023,Mullativu,Cheating / Breach of Trust > 300k,41
+2023,Mullativu,Counterfeiting Currency,1
+2023,Mullativu,Cruelty to Children,4
+2023,Mullativu,Extortions,0
+2023,Mullativu,Grave Sexual Abuse,10
+2023,Mullativu,Grievous Hurt,32
+2023,Mullativu,House Breaking,80
+2023,Mullativu,Human Trafficking,0
+2023,Mullativu,Hurt by Dangerous Weapons,18
+2023,Mullativu,Illegal Firearms,0
+2023,Mullativu,Kidnapping,2
+2023,Mullativu,Mischief > 50k,4
+2023,Mullativu,Murder,8
+2023,Mullativu,Narcotic Drugs,1
+2023,Mullativu,Obstructing Police,0
+2023,Mullativu,Offences Against The State,0
+2023,Mullativu,Offensive Weapons Act,0
+2023,Mullativu,Property Theft > 50k,44
+2023,Mullativu,Rape (Adult),7
+2023,Mullativu,Robbery,18
+2023,Mullativu,Sexual Exploitation Of Children,0
+2023,Mullativu,Statutory Rape (Consensual),15
+2023,Mullativu,Statutory Rape (Non-consensual),18
+2023,Mullativu,Unlawful Assembly/ Riot,0
+2023,Narcotics,Abduction,0
+2023,Narcotics,Agriculture Theft > 50k,0
+2023,Narcotics,Arson,0
+2023,Narcotics,Attempt to Murder,0
+2023,Narcotics,Cattle Theft > 50k,0
+2023,Narcotics,Cheating / Breach of Trust > 300k,0
+2023,Narcotics,Counterfeiting Currency,0
+2023,Narcotics,Cruelty to Children,0
+2023,Narcotics,Extortions,0
+2023,Narcotics,Grave Sexual Abuse,0
+2023,Narcotics,Grievous Hurt,0
+2023,Narcotics,House Breaking,0
+2023,Narcotics,Human Trafficking,0
+2023,Narcotics,Hurt by Dangerous Weapons,0
+2023,Narcotics,Illegal Firearms,0
+2023,Narcotics,Kidnapping,0
+2023,Narcotics,Mischief > 50k,0
+2023,Narcotics,Murder,0
+2023,Narcotics,Narcotic Drugs,123
+2023,Narcotics,Obstructing Police,0
+2023,Narcotics,Offences Against The State,0
+2023,Narcotics,Offensive Weapons Act,0
+2023,Narcotics,Property Theft > 50k,0
+2023,Narcotics,Rape (Adult),0
+2023,Narcotics,Robbery,0
+2023,Narcotics,Sexual Exploitation Of Children,0
+2023,Narcotics,Statutory Rape (Consensual),0
+2023,Narcotics,Statutory Rape (Non-consensual),0
+2023,Narcotics,Unlawful Assembly/ Riot,0
+2023,"National Children'S
+Protect Authority",Abduction,1
+2023,"National Children'S
+Protect Authority",Agriculture Theft > 50k,0
+2023,"National Children'S
+Protect Authority",Arson,0
+2023,"National Children'S
+Protect Authority",Attempt to Murder,0
+2023,"National Children'S
+Protect Authority",Cattle Theft > 50k,0
+2023,"National Children'S
+Protect Authority",Cheating / Breach of Trust > 300k,0
+2023,"National Children'S
+Protect Authority",Counterfeiting Currency,0
+2023,"National Children'S
+Protect Authority",Cruelty to Children,4
+2023,"National Children'S
+Protect Authority",Extortions,0
+2023,"National Children'S
+Protect Authority",Grave Sexual Abuse,4
+2023,"National Children'S
+Protect Authority",Grievous Hurt,0
+2023,"National Children'S
+Protect Authority",House Breaking,0
+2023,"National Children'S
+Protect Authority",Human Trafficking,0
+2023,"National Children'S
+Protect Authority",Hurt by Dangerous Weapons,0
+2023,"National Children'S
+Protect Authority",Illegal Firearms,0
+2023,"National Children'S
+Protect Authority",Kidnapping,0
+2023,"National Children'S
+Protect Authority",Mischief > 50k,0
+2023,"National Children'S
+Protect Authority",Murder,0
+2023,"National Children'S
+Protect Authority",Narcotic Drugs,0
+2023,"National Children'S
+Protect Authority",Obstructing Police,0
+2023,"National Children'S
+Protect Authority",Offences Against The State,0
+2023,"National Children'S
+Protect Authority",Offensive Weapons Act,0
+2023,"National Children'S
+Protect Authority",Property Theft > 50k,0
+2023,"National Children'S
+Protect Authority",Rape (Adult),0
+2023,"National Children'S
+Protect Authority",Robbery,0
+2023,"National Children'S
+Protect Authority",Sexual Exploitation Of Children,0
+2023,"National Children'S
+Protect Authority",Statutory Rape (Consensual),1
+2023,"National Children'S
+Protect Authority",Statutory Rape (Non-consensual),2
+2023,"National Children'S
+Protect Authority",Unlawful Assembly/ Riot,0
+2023,Negombo,Abduction,12
+2023,Negombo,Agriculture Theft > 50k,0
+2023,Negombo,Arson,8
+2023,Negombo,Attempt to Murder,2
+2023,Negombo,Cattle Theft > 50k,27
+2023,Negombo,Cheating / Breach of Trust > 300k,191
+2023,Negombo,Counterfeiting Currency,1
+2023,Negombo,Cruelty to Children,1
+2023,Negombo,Extortions,4
+2023,Negombo,Grave Sexual Abuse,6
+2023,Negombo,Grievous Hurt,9
+2023,Negombo,House Breaking,264
+2023,Negombo,Human Trafficking,0
+2023,Negombo,Hurt by Dangerous Weapons,33
+2023,Negombo,Illegal Firearms,3
+2023,Negombo,Kidnapping,2
+2023,Negombo,Mischief > 50k,10
+2023,Negombo,Murder,15
+2023,Negombo,Narcotic Drugs,611
+2023,Negombo,Obstructing Police,2
+2023,Negombo,Offences Against The State,0
+2023,Negombo,Offensive Weapons Act,14
+2023,Negombo,Property Theft > 50k,220
+2023,Negombo,Rape (Adult),4
+2023,Negombo,Robbery,106
+2023,Negombo,Sexual Exploitation Of Children,0
+2023,Negombo,Statutory Rape (Consensual),23
+2023,Negombo,Statutory Rape (Non-consensual),11
+2023,Negombo,Unlawful Assembly/ Riot,1
+2023,Nugegoda,Abduction,10
+2023,Nugegoda,Agriculture Theft > 50k,1
+2023,Nugegoda,Arson,5
+2023,Nugegoda,Attempt to Murder,11
+2023,Nugegoda,Cattle Theft > 50k,19
+2023,Nugegoda,Cheating / Breach of Trust > 300k,534
+2023,Nugegoda,Counterfeiting Currency,1
+2023,Nugegoda,Cruelty to Children,2
+2023,Nugegoda,Extortions,8
+2023,Nugegoda,Grave Sexual Abuse,17
+2023,Nugegoda,Grievous Hurt,41
+2023,Nugegoda,House Breaking,672
+2023,Nugegoda,Human Trafficking,0
+2023,Nugegoda,Hurt by Dangerous Weapons,46
+2023,Nugegoda,Illegal Firearms,2
+2023,Nugegoda,Kidnapping,6
+2023,Nugegoda,Mischief > 50k,12
+2023,Nugegoda,Murder,33
+2023,Nugegoda,Narcotic Drugs,1538
+2023,Nugegoda,Obstructing Police,0
+2023,Nugegoda,Offences Against The State,0
+2023,Nugegoda,Offensive Weapons Act,22
+2023,Nugegoda,Property Theft > 50k,423
+2023,Nugegoda,Rape (Adult),11
+2023,Nugegoda,Robbery,152
+2023,Nugegoda,Sexual Exploitation Of Children,2
+2023,Nugegoda,Statutory Rape (Consensual),19
+2023,Nugegoda,Statutory Rape (Non-consensual),5
+2023,Nugegoda,Unlawful Assembly/ Riot,0
+2023,Nuwaraeliya,Abduction,7
+2023,Nuwaraeliya,Agriculture Theft > 50k,2
+2023,Nuwaraeliya,Arson,8
+2023,Nuwaraeliya,Attempt to Murder,4
+2023,Nuwaraeliya,Cattle Theft > 50k,4
+2023,Nuwaraeliya,Cheating / Breach of Trust > 300k,19
+2023,Nuwaraeliya,Counterfeiting Currency,0
+2023,Nuwaraeliya,Cruelty to Children,1
+2023,Nuwaraeliya,Extortions,0
+2023,Nuwaraeliya,Grave Sexual Abuse,10
+2023,Nuwaraeliya,Grievous Hurt,35
+2023,Nuwaraeliya,House Breaking,143
+2023,Nuwaraeliya,Human Trafficking,0
+2023,Nuwaraeliya,Hurt by Dangerous Weapons,31
+2023,Nuwaraeliya,Illegal Firearms,0
+2023,Nuwaraeliya,Kidnapping,3
+2023,Nuwaraeliya,Mischief > 50k,4
+2023,Nuwaraeliya,Murder,16
+2023,Nuwaraeliya,Narcotic Drugs,1
+2023,Nuwaraeliya,Obstructing Police,3
+2023,Nuwaraeliya,Offences Against The State,0
+2023,Nuwaraeliya,Offensive Weapons Act,0
+2023,Nuwaraeliya,Property Theft > 50k,77
+2023,Nuwaraeliya,Rape (Adult),8
+2023,Nuwaraeliya,Robbery,17
+2023,Nuwaraeliya,Sexual Exploitation Of Children,0
+2023,Nuwaraeliya,Statutory Rape (Consensual),13
+2023,Nuwaraeliya,Statutory Rape (Non-consensual),10
+2023,Nuwaraeliya,Unlawful Assembly/ Riot,0
+2023,Panadura,Abduction,17
+2023,Panadura,Agriculture Theft > 50k,0
+2023,Panadura,Arson,12
+2023,Panadura,Attempt to Murder,2
+2023,Panadura,Cattle Theft > 50k,46
+2023,Panadura,Cheating / Breach of Trust > 300k,114
+2023,Panadura,Counterfeiting Currency,1
+2023,Panadura,Cruelty to Children,1
+2023,Panadura,Extortions,3
+2023,Panadura,Grave Sexual Abuse,14
+2023,Panadura,Grievous Hurt,12
+2023,Panadura,House Breaking,367
+2023,Panadura,Human Trafficking,0
+2023,Panadura,Hurt by Dangerous Weapons,52
+2023,Panadura,Illegal Firearms,2
+2023,Panadura,Kidnapping,5
+2023,Panadura,Mischief > 50k,2
+2023,Panadura,Murder,15
+2023,Panadura,Narcotic Drugs,287
+2023,Panadura,Obstructing Police,3
+2023,Panadura,Offences Against The State,0
+2023,Panadura,Offensive Weapons Act,12
+2023,Panadura,Property Theft > 50k,227
+2023,Panadura,Rape (Adult),4
+2023,Panadura,Robbery,136
+2023,Panadura,Sexual Exploitation Of Children,0
+2023,Panadura,Statutory Rape (Consensual),21
+2023,Panadura,Statutory Rape (Non-consensual),11
+2023,Panadura,Unlawful Assembly/ Riot,0
+2023,Polonnaruwa,Abduction,25
+2023,Polonnaruwa,Agriculture Theft > 50k,1
+2023,Polonnaruwa,Arson,15
+2023,Polonnaruwa,Attempt to Murder,4
+2023,Polonnaruwa,Cattle Theft > 50k,131
+2023,Polonnaruwa,Cheating / Breach of Trust > 300k,104
+2023,Polonnaruwa,Counterfeiting Currency,2
+2023,Polonnaruwa,Cruelty to Children,2
+2023,Polonnaruwa,Extortions,8
+2023,Polonnaruwa,Grave Sexual Abuse,18
+2023,Polonnaruwa,Grievous Hurt,48
+2023,Polonnaruwa,House Breaking,434
+2023,Polonnaruwa,Human Trafficking,0
+2023,Polonnaruwa,Hurt by Dangerous Weapons,59
+2023,Polonnaruwa,Illegal Firearms,0
+2023,Polonnaruwa,Kidnapping,6
+2023,Polonnaruwa,Mischief > 50k,16
+2023,Polonnaruwa,Murder,18
+2023,Polonnaruwa,Narcotic Drugs,30
+2023,Polonnaruwa,Obstructing Police,5
+2023,Polonnaruwa,Offences Against The State,0
+2023,Polonnaruwa,Offensive Weapons Act,0
+2023,Polonnaruwa,Property Theft > 50k,178
+2023,Polonnaruwa,Rape (Adult),9
+2023,Polonnaruwa,Robbery,69
+2023,Polonnaruwa,Sexual Exploitation Of Children,0
+2023,Polonnaruwa,Statutory Rape (Consensual),51
+2023,Polonnaruwa,Statutory Rape (Non-consensual),12
+2023,Polonnaruwa,Unlawful Assembly/ Riot,1
+2023,Tangalle,Abduction,18
+2023,Tangalle,Agriculture Theft > 50k,7
+2023,Tangalle,Arson,19
+2023,Tangalle,Attempt to Murder,11
+2023,Tangalle,Cattle Theft > 50k,118
+2023,Tangalle,Cheating / Breach of Trust > 300k,156
+2023,Tangalle,Counterfeiting Currency,4
+2023,Tangalle,Cruelty to Children,1
+2023,Tangalle,Extortions,6
+2023,Tangalle,Grave Sexual Abuse,26
+2023,Tangalle,Grievous Hurt,34
+2023,Tangalle,House Breaking,351
+2023,Tangalle,Human Trafficking,0
+2023,Tangalle,Hurt by Dangerous Weapons,71
+2023,Tangalle,Illegal Firearms,0
+2023,Tangalle,Kidnapping,13
+2023,Tangalle,Mischief > 50k,4
+2023,Tangalle,Murder,35
+2023,Tangalle,Narcotic Drugs,75
+2023,Tangalle,Obstructing Police,7
+2023,Tangalle,Offences Against The State,0
+2023,Tangalle,Offensive Weapons Act,3
+2023,Tangalle,Property Theft > 50k,214
+2023,Tangalle,Rape (Adult),4
+2023,Tangalle,Robbery,77
+2023,Tangalle,Sexual Exploitation Of Children,1
+2023,Tangalle,Statutory Rape (Consensual),46
+2023,Tangalle,Statutory Rape (Non-consensual),19
+2023,Tangalle,Unlawful Assembly/ Riot,1
+2023,Teldeniya,Abduction,8
+2023,Teldeniya,Agriculture Theft > 50k,0
+2023,Teldeniya,Arson,5
+2023,Teldeniya,Attempt to Murder,2
+2023,Teldeniya,Cattle Theft > 50k,13
+2023,Teldeniya,Cheating / Breach of Trust > 300k,22
+2023,Teldeniya,Counterfeiting Currency,0
+2023,Teldeniya,Cruelty to Children,5
+2023,Teldeniya,Extortions,2
+2023,Teldeniya,Grave Sexual Abuse,11
+2023,Teldeniya,Grievous Hurt,36
+2023,Teldeniya,House Breaking,131
+2023,Teldeniya,Human Trafficking,0
+2023,Teldeniya,Hurt by Dangerous Weapons,43
+2023,Teldeniya,Illegal Firearms,0
+2023,Teldeniya,Kidnapping,2
+2023,Teldeniya,Mischief > 50k,2
+2023,Teldeniya,Murder,3
+2023,Teldeniya,Narcotic Drugs,40
+2023,Teldeniya,Obstructing Police,0
+2023,Teldeniya,Offences Against The State,0
+2023,Teldeniya,Offensive Weapons Act,0
+2023,Teldeniya,Property Theft > 50k,37
+2023,Teldeniya,Rape (Adult),3
+2023,Teldeniya,Robbery,31
+2023,Teldeniya,Sexual Exploitation Of Children,0
+2023,Teldeniya,Statutory Rape (Consensual),11
+2023,Teldeniya,Statutory Rape (Non-consensual),4
+2023,Teldeniya,Unlawful Assembly/ Riot,0
+2023,Tid,Abduction,0
+2023,Tid,Agriculture Theft > 50k,0
+2023,Tid,Arson,0
+2023,Tid,Attempt to Murder,0
+2023,Tid,Cattle Theft > 50k,0
+2023,Tid,Cheating / Breach of Trust > 300k,0
+2023,Tid,Counterfeiting Currency,0
+2023,Tid,Cruelty to Children,0
+2023,Tid,Extortions,0
+2023,Tid,Grave Sexual Abuse,0
+2023,Tid,Grievous Hurt,0
+2023,Tid,House Breaking,0
+2023,Tid,Human Trafficking,0
+2023,Tid,Hurt by Dangerous Weapons,0
+2023,Tid,Illegal Firearms,0
+2023,Tid,Kidnapping,0
+2023,Tid,Mischief > 50k,0
+2023,Tid,Murder,0
+2023,Tid,Narcotic Drugs,0
+2023,Tid,Obstructing Police,0
+2023,Tid,Offences Against The State,0
+2023,Tid,Offensive Weapons Act,0
+2023,Tid,Property Theft > 50k,0
+2023,Tid,Rape (Adult),0
+2023,Tid,Robbery,0
+2023,Tid,Sexual Exploitation Of Children,0
+2023,Tid,Statutory Rape (Consensual),0
+2023,Tid,Statutory Rape (Non-consensual),0
+2023,Tid,Unlawful Assembly/ Riot,0
+2023,Vavuniya,Abduction,7
+2023,Vavuniya,Agriculture Theft > 50k,2
+2023,Vavuniya,Arson,7
+2023,Vavuniya,Attempt to Murder,2
+2023,Vavuniya,Cattle Theft > 50k,73
+2023,Vavuniya,Cheating / Breach of Trust > 300k,86
+2023,Vavuniya,Counterfeiting Currency,1
+2023,Vavuniya,Cruelty to Children,5
+2023,Vavuniya,Extortions,3
+2023,Vavuniya,Grave Sexual Abuse,7
+2023,Vavuniya,Grievous Hurt,68
+2023,Vavuniya,House Breaking,184
+2023,Vavuniya,Human Trafficking,0
+2023,Vavuniya,Hurt by Dangerous Weapons,14
+2023,Vavuniya,Illegal Firearms,0
+2023,Vavuniya,Kidnapping,1
+2023,Vavuniya,Mischief > 50k,4
+2023,Vavuniya,Murder,8
+2023,Vavuniya,Narcotic Drugs,24
+2023,Vavuniya,Obstructing Police,2
+2023,Vavuniya,Offences Against The State,0
+2023,Vavuniya,Offensive Weapons Act,0
+2023,Vavuniya,Property Theft > 50k,106
+2023,Vavuniya,Rape (Adult),5
+2023,Vavuniya,Robbery,71
+2023,Vavuniya,Sexual Exploitation Of Children,0
+2023,Vavuniya,Statutory Rape (Consensual),14
+2023,Vavuniya,Statutory Rape (Non-consensual),4
+2023,Vavuniya,Unlawful Assembly/ Riot,1
+2023,"Women & Children'S
+Bureau",Abduction,1
+2023,"Women & Children'S
+Bureau",Agriculture Theft > 50k,0
+2023,"Women & Children'S
+Bureau",Arson,0
+2023,"Women & Children'S
+Bureau",Attempt to Murder,0
+2023,"Women & Children'S
+Bureau",Cattle Theft > 50k,0
+2023,"Women & Children'S
+Bureau",Cheating / Breach of Trust > 300k,0
+2023,"Women & Children'S
+Bureau",Counterfeiting Currency,0
+2023,"Women & Children'S
+Bureau",Cruelty to Children,9
+2023,"Women & Children'S
+Bureau",Extortions,0
+2023,"Women & Children'S
+Bureau",Grave Sexual Abuse,7
+2023,"Women & Children'S
+Bureau",Grievous Hurt,1
+2023,"Women & Children'S
+Bureau",House Breaking,0
+2023,"Women & Children'S
+Bureau",Human Trafficking,1
+2023,"Women & Children'S
+Bureau",Hurt by Dangerous Weapons,0
+2023,"Women & Children'S
+Bureau",Illegal Firearms,0
+2023,"Women & Children'S
+Bureau",Kidnapping,0
+2023,"Women & Children'S
+Bureau",Mischief > 50k,0
+2023,"Women & Children'S
+Bureau",Murder,0
+2023,"Women & Children'S
+Bureau",Narcotic Drugs,0
+2023,"Women & Children'S
+Bureau",Obstructing Police,0
+2023,"Women & Children'S
+Bureau",Offences Against The State,0
+2023,"Women & Children'S
+Bureau",Offensive Weapons Act,0
+2023,"Women & Children'S
+Bureau",Property Theft > 50k,0
+2023,"Women & Children'S
+Bureau",Rape (Adult),7
+2023,"Women & Children'S
+Bureau",Robbery,0
+2023,"Women & Children'S
+Bureau",Sexual Exploitation Of Children,0
+2023,"Women & Children'S
+Bureau",Statutory Rape (Consensual),6
+2023,"Women & Children'S
+Bureau",Statutory Rape (Non-consensual),3
+2023,"Women & Children'S
+Bureau",Unlawful Assembly/ Riot,0
+2023,Colombo,Total Crimes,1344
+2023,Kalutara,Total Crimes,1076
+2023,Nuwara Eliya,Total Crimes,1224
+2023,Hambantota,Total Crimes,1007
+2023,Mullaitivu,Total Crimes,459
+2023,Batticaloa,Total Crimes,469
+2023,Ampara,Total Crimes,1184
+2023,Trincomalee,Total Crimes,1043
+2023,Kurunegala,Total Crimes,324
+2023,Puttalam,Total Crimes,1111
+2023,Anuradhapura,Total Crimes,999
+2023,Badulla,Total Crimes,821
+2023,Monaragala,Total Crimes,362
+2023,Ratnapura,Total Crimes,1207
+2023,Kegalle,Total Crimes,1224
