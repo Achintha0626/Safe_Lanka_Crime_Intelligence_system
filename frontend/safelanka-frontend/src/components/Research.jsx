@@ -43,7 +43,9 @@ export default function Research() {
     fetch("/api/metadata/")
       .then((res) => res.json())
       .then((data) => {
-        if (data.districts) setDistricts(data.districts);
+        // Use administrative_districts instead of districts to get only the 25 official districts
+        if (data.administrative_districts)
+          setDistricts(data.administrative_districts);
       })
       .catch(console.error);
   }, []);

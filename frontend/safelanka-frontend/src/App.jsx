@@ -245,20 +245,70 @@ function AuthButton() {
   if (user) {
     return (
       <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-        <span style={{ fontSize: "0.85rem", color: "#9CA3AF" }}>
-          {user.username} ({user.role})
-        </span>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 10,
+            background: "var(--bg-tertiary)",
+            padding: "8px 14px",
+            borderRadius: 8,
+            border: "1px solid var(--border)",
+          }}
+        >
+          <div
+            style={{
+              width: 32,
+              height: 32,
+              borderRadius: "50%",
+              background: "linear-gradient(135deg, #3B82F6, #8B5CF6)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "white",
+              fontWeight: "600",
+              fontSize: "0.9rem",
+            }}
+          >
+            {user.username.charAt(0).toUpperCase()}
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <span
+              style={{
+                fontSize: "0.9rem",
+                fontWeight: "600",
+                color: "var(--text-primary)",
+              }}
+            >
+              {user.username}
+            </span>
+            <span
+              style={{
+                fontSize: "0.75rem",
+                color: "var(--text-secondary)",
+                textTransform: "uppercase",
+                letterSpacing: "0.5px",
+              }}
+            >
+              {user.role}
+            </span>
+          </div>
+        </div>
         <button
           onClick={handleLogout}
           style={{
             background: "#EF4444",
             color: "white",
-            padding: "4px 12px",
+            padding: "8px 16px",
             border: "none",
-            borderRadius: 4,
+            borderRadius: 6,
             cursor: "pointer",
             fontSize: "0.85rem",
+            fontWeight: "500",
+            transition: "background 0.2s",
           }}
+          onMouseEnter={(e) => (e.target.style.background = "#DC2626")}
+          onMouseLeave={(e) => (e.target.style.background = "#EF4444")}
         >
           Logout
         </button>

@@ -56,6 +56,62 @@ def reload_ml_data_internal():
 # =========================
 # Helpers
 # =========================
+def calculate_risk_from_count(count, group_counts):
+    """
+    Calculate risk zone using hybrid approach (absolute + relative thresholds).
+    Same logic as data_sync.py to ensure consistency.
+    
+    Args:
+        count: Crime count for a specific district
+        group_counts: Series of all counts in the same group (for percentile calculation)
+    
+    Returns:
+        Risk zone: "Low", "Medium", or "High"
+    """
+    # Absolute thresholds first (work even with single district)
+    if count < 3:
+        return "Low"
+    
+    # If only one district, use absolute thresholds only
+    if len(group_counts) < 2:
+        if count >= 50:
+            return "High"
+        elif count >= 15:
+            return "Medium"
+        else:
+            return "Low"
+    
+    # Multiple districts: use relative percentiles too
+    q50 = group_counts.quantile(0.50)
+    q75 = group_counts.quantile(0.75)
+    q90 = group_counts.quantile(0.90)
+    max_count = group_counts.max()
+    
+    # Hybrid approach: Absolute + Relative
+    if count < 10:
+        # For low-to-medium counts, check relative position
+        if count >= q75 and max_count >= 15:
+            return "Medium"
+        else:
+            return "Low"
+    elif count < 25:
+        # Medium range - check relative position
+        if count >= q90:
+            return "High"
+        elif count >= q75:
+            return "Medium"
+        else:
+            return "Low"
+    else:
+        # High absolute count (>= 25)
+        if count >= q90:
+            return "High"
+        elif count >= q75:
+            return "Medium"
+        else:
+            return "Low"
+
+
 def compute_features_for_row(data_sorted: pd.DataFrame, year: int, month: int):
     """
     data_sorted must already be filtered to one district+division+crime_type
@@ -128,8 +184,8 @@ def metadata(request):
 @api_view(["GET"])
 def risk_by_district(request):
     """
-    Historical risk zone by district (filtered by year/month/crime_type)
-    NOTE: This returns MODE risk_zone (most common). Good for demo.
+    Historical risk zone by district (filtered by year/month/crime_type).
+    Aggregates crime counts by district, then calculates risk using hybrid logic.
     """
     if df is None:
         return Response({"error": "Data not loaded"}, status=503)
@@ -147,11 +203,14 @@ def risk_by_district(request):
     if crime_type:
         data = data[data["crime_type"] == crime_type]
 
-    result = (
-        data.groupby("district")["risk_zone"]
-        .agg(lambda x: x.value_counts().index[0] if len(x) else "Low")
-        .to_dict()
-    )
+    # Aggregate counts by district (sum across police divisions)
+    district_totals = data.groupby("district")["crime_count"].sum()
+    
+    # Calculate risk for each district using the aggregated total
+    result = {}
+    for district, total_count in district_totals.items():
+        risk = calculate_risk_from_count(total_count, district_totals)
+        result[district] = risk
 
     return Response(result)
 

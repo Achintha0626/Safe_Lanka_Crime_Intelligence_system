@@ -57,24 +57,51 @@ def sync_db_to_csv():
         
         def calc_risk_smart(group_df):
             """Calculate risk zone for a group of records (same year, month, crime_type)"""
-            if len(group_df) < 2:
-                # Not enough data to calculate risk
-                return pd.Series(["Low"] * len(group_df), index=group_df.index)
-            
             counts = group_df['crime_count']
             
-            # Use percentiles for thresholds
+            # Hybrid approach: Use absolute thresholds first, then relative percentiles
             try:
-                q33 = counts.quantile(0.33)
-                q67 = counts.quantile(0.67)
-                
                 def assign_risk(count):
-                    if count >= q67:
-                        return "High"
-                    elif count >= q33:
-                        return "Medium"
-                    else:
+                    # Absolute thresholds first (prevents low numbers from being "High")
+                    if count < 3:
                         return "Low"
+                    
+                    # If only one record, use absolute thresholds only
+                    if len(counts) < 2:
+                        if count >= 50:
+                            return "High"
+                        elif count >= 15:
+                            return "Medium"
+                        else:
+                            return "Low"
+                    
+                    # Multiple records: use percentiles too
+                    q75 = counts.quantile(0.75)
+                    q90 = counts.quantile(0.90)
+                    max_count = counts.max()
+                    
+                    if count < 10:
+                        # For low-to-medium counts, check relative position
+                        if count >= q75 and max_count >= 15:
+                            return "Medium"
+                        else:
+                            return "Low"
+                    elif count < 25:
+                        # Medium range - check relative position
+                        if count >= q90:
+                            return "High"
+                        elif count >= q75:
+                            return "Medium"
+                        else:
+                            return "Low"
+                    else:
+                        # High absolute count (>= 25)
+                        if count >= q90:
+                            return "High"
+                        elif count >= q75:
+                            return "Medium"
+                        else:
+                            return "Low"
                 
                 return counts.apply(assign_risk)
             except:

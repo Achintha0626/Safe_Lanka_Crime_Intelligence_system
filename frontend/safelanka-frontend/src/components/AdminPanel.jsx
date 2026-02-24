@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 const API_BASE = "/api/admin";
 
@@ -23,14 +24,42 @@ export default function AdminPanel() {
   const [activeTab, setActiveTab] = useState("records");
   const [users, setUsers] = useState([]);
 
+  // Metadata State
+  const [districts, setDistricts] = useState([]);
+  const [crimeTypes, setCrimeTypes] = useState([]);
+
   useEffect(() => {
     if (!user) {
       navigate("/login");
       return;
     }
+    fetchMetadata();
     fetchRecords();
     if (activeTab === "users") fetchUsers();
   }, [user, navigate, activeTab]);
+
+  const fetchMetadata = () => {
+    fetch("/api/metadata/")
+      .then((res) => res.json())
+      .then((meta) => {
+        setDistricts(meta.administrative_districts || []);
+        setCrimeTypes(meta.crime_types || []);
+      })
+      .catch(console.error);
+  };
+
+  // Update form defaults when metadata loads
+  useEffect(() => {
+    if (districts.length > 0 && crimeTypes.length > 0) {
+      // Set defaults if current values are not in the lists
+      if (!districts.includes(formData.district)) {
+        setFormData((prev) => ({ ...prev, district: districts[0] }));
+      }
+      if (!crimeTypes.includes(formData.crime_type)) {
+        setFormData((prev) => ({ ...prev, crime_type: crimeTypes[0] }));
+      }
+    }
+  }, [districts, crimeTypes]);
 
   const fetchUsers = () => {
     fetch(`${API_BASE}/users/`, { credentials: "include" })
@@ -49,19 +78,28 @@ export default function AdminPanel() {
       body: JSON.stringify({ role: newRole }),
       credentials: "include",
     });
-    if (res.ok) fetchUsers();
-    else alert("Update failed");
+    if (res.ok) {
+      toast.success("User role updated successfully!");
+      fetchUsers();
+    } else {
+      toast.error("Failed to update user role");
+    }
   };
 
   const handleDeleteUser = async (userId) => {
     if (!confirm("Delete this user?")) return;
+    const loadingToast = toast.loading("Deleting user...");
     const res = await fetch(`${API_BASE}/users/${userId}/delete/`, {
       method: "DELETE",
       headers: { "X-CSRFToken": getCookie("csrftoken") },
       credentials: "include",
     });
-    if (res.ok) fetchUsers();
-    else alert("Delete failed");
+    if (res.ok) {
+      toast.success("User deleted successfully!", { id: loadingToast });
+      fetchUsers();
+    } else {
+      toast.error("Failed to delete user", { id: loadingToast });
+    }
   };
 
   // --- Record Management Logic ---
@@ -101,6 +139,9 @@ export default function AdminPanel() {
     e.preventDefault();
     setLoading(true);
 
+    // Show loading toast
+    const loadingToast = toast.loading("Creating record and syncing data...");
+
     try {
       const res = await fetch(`${API_BASE}/records/create/`, {
         method: "POST",
@@ -117,10 +158,15 @@ export default function AdminPanel() {
         throw new Error(txt || "Creation Failed");
       }
 
-      alert("Record created and System Synced!");
+      // Success!
+      toast.success("Record created and system synced successfully!", {
+        id: loadingToast,
+      });
       fetchRecords();
     } catch (err) {
-      alert("Error: " + err.message);
+      toast.error("Error: " + err.message, {
+        id: loadingToast,
+      });
       setLoading(false);
     }
   };
@@ -128,6 +174,8 @@ export default function AdminPanel() {
   const handleDelete = async (id) => {
     if (!confirm("Are you sure? This triggers a system-wide sync.")) return;
     setLoading(true);
+    const loadingToast = toast.loading("Deleting record and syncing...");
+
     try {
       const res = await fetch(`${API_BASE}/records/${id}/delete/`, {
         method: "DELETE",
@@ -137,9 +185,15 @@ export default function AdminPanel() {
         credentials: "include",
       });
       if (!res.ok) throw new Error("Delete Failed");
+
+      toast.success("Record deleted successfully!", {
+        id: loadingToast,
+      });
       fetchRecords();
     } catch (err) {
-      alert("Error: " + err.message);
+      toast.error("Error: " + err.message, {
+        id: loadingToast,
+      });
       setLoading(false);
     }
   };
@@ -147,7 +201,63 @@ export default function AdminPanel() {
   if (!user) return null;
 
   return (
-    <div style={{ padding: 32, maxWidth: 1200, margin: "0 auto" }}>
+    <div
+      style={{
+        padding: 32,
+        maxWidth: 1200,
+        margin: "0 auto",
+        position: "relative",
+      }}
+    >
+      {/* Loading Overlay */}
+      {loading && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0, 0, 0, 0.7)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 9999,
+            backdropFilter: "blur(4px)",
+          }}
+        >
+          <div
+            style={{
+              width: 60,
+              height: 60,
+              border: "4px solid rgba(96, 165, 250, 0.3)",
+              borderTop: "4px solid #60A5FA",
+              borderRadius: "50%",
+              animation: "spin 1s linear infinite",
+            }}
+          />
+          <p
+            style={{
+              color: "white",
+              marginTop: 20,
+              fontSize: "1.1rem",
+              fontWeight: "500",
+            }}
+          >
+            Processing...
+          </p>
+          <style>
+            {`
+              @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+              }
+            `}
+          </style>
+        </div>
+      )}
+
       <div
         style={{
           display: "flex",
@@ -173,18 +283,6 @@ export default function AdminPanel() {
           <p style={{ color: "var(--text-secondary)", margin: 0 }}>
             Manage database records and user roles.
           </p>
-        </div>
-        <div style={{ textAlign: "right", flexShrink: 0, paddingTop: 4 }}>
-          <span
-            style={{
-              fontSize: "0.875rem",
-              color: "var(--text-secondary)",
-              whiteSpace: "nowrap",
-            }}
-          >
-            Logged in as{" "}
-            <b style={{ color: "var(--text-primary)" }}>{user.username}</b>
-          </span>
         </div>
       </div>
 
@@ -294,14 +392,19 @@ export default function AdminPanel() {
                 >
                   District
                 </label>
-                <input
-                  type="text"
+                <select
                   value={formData.district}
                   onChange={(e) =>
                     setFormData({ ...formData, district: e.target.value })
                   }
                   style={inputStyle}
-                />
+                >
+                  {districts.map((d) => (
+                    <option key={d} value={d}>
+                      {d}
+                    </option>
+                  ))}
+                </select>
               </div>
               <div>
                 <label
@@ -321,13 +424,11 @@ export default function AdminPanel() {
                   }
                   style={inputStyle}
                 >
-                  {["Total Crimes", "Theft", "Assault", "Drugs", "Robbery"].map(
-                    (c) => (
-                      <option key={c} value={c}>
-                        {c}
-                      </option>
-                    ),
-                  )}
+                  {crimeTypes.map((c) => (
+                    <option key={c} value={c}>
+                      {c}
+                    </option>
+                  ))}
                 </select>
               </div>
               <div>
