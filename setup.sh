@@ -61,6 +61,11 @@ echo "Creating admin user..."
 python3 create_admin.py
 echo "✓ Admin user ready"
 
+# Import crime data
+echo "Importing crime data..."
+python3 import_crime_data.py
+echo "✓ Crime data imported"
+
 echo ""
 echo "========================================"
 echo "  Setting up Frontend"
