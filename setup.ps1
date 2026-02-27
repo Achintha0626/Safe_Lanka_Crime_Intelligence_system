@@ -58,6 +58,11 @@ Write-Host "Creating admin user..." -ForegroundColor Yellow
 python create_admin.py
 Write-Host "✓ Admin user ready" -ForegroundColor Green
 
+# Import crime data
+Write-Host "Importing crime data..." -ForegroundColor Yellow
+python import_crime_data.py
+Write-Host "✓ Crime data imported" -ForegroundColor Green
+
 Write-Host ""
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "  Setting up Frontend" -ForegroundColor Cyan

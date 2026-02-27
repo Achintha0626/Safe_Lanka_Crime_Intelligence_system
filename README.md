@@ -60,7 +60,14 @@ python create_admin.py
 - Username: `admin`
 - Password: `admin123`
 
-#### Step 2.5: Seed Initial Data (Optional)
+#### Step 2.5: Import Crime Data (Recommended)
+This script imports the detailed crime dataset from `backend/data/processed/`.
+
+```bash
+python import_crime_data.py
+```
+
+#### Step 2.6: Seed Initial Data (Alternative)
 
 ```bash
 python manage.py seed_data
